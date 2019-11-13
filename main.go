@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/kyokomi/emoji"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	fmt.Print("Hello World")
+	emoji.Println(":earth_africa:")
 }
